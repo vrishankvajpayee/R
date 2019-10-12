@@ -51,6 +51,7 @@ Error: unexpected symbol in:
 [1]  9 16 25 49
 > x = matrix(nrow=3, ncol=3, data=c(1,8,8,10, 12, 4, 12, 18, 16))
 > t(x)+2*t(x)+t(x)%*%t(x)
+#matrices operations
      [,1] [,2] [,3]
 [1,]  180  272  192
 [2,]  208  332  204
